@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     private void initRecyclerView()
     {
         RecyclerView recyclerView = findViewById(R.id.recipeList);
-        RecipeAdaptor adapter = new  RecipeAdaptor(this, mRecipeNames, mRecipeDescriptions);
+        RecipeAdapter adapter = new  RecipeAdapter(this, mRecipeNames, mRecipeDescriptions);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
