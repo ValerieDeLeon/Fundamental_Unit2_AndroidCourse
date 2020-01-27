@@ -1,5 +1,5 @@
 # Fundemental_Unit2_AndroidCourse
-Course Projects and Cumulative Final Project
+Course Projects and Possibly Some Tasks
 
 1. DroidCafe_Unit2
 2. CheckboxAndStuff
