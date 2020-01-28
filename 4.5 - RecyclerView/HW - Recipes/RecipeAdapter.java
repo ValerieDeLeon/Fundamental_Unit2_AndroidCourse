@@ -1,6 +1,7 @@
 package com.example.recipes;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +16,6 @@ import java.util.ArrayList;
 
 public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder>
 {
-
     private ArrayList<String> mRecipeNames;
     private ArrayList<String> mRecipeDescriptions;
     private Context mContext;
@@ -32,6 +32,7 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
         ViewHolder holder = new ViewHolder(view);
         return holder;
     }
+
     public void onBindViewHolder(ViewHolder holder, final int position)
     {
         String mName = mRecipeNames.get(position);
@@ -42,9 +43,15 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
             public void onClick(View v)
             {
                 Toast.makeText(mContext, "Clicked " + mRecipeNames.get(position), Toast.LENGTH_SHORT).show();
-                
-                Intent intent = new Intent(mContext, RecipeActivity.class);
-                mContext.startActivity(intent);
+
+                if (mRecipeNames.get(position).equals("Banana Bread")) {
+                    Intent intent = new Intent(mContext, BananaActivity.class);
+                    mContext.startActivity(intent);
+                }
+//                if (mRecipeNames.get(position).equals("Birthday Cake")) {
+//                    Intent intent = new Intent(mContext, BirthdayActivity.class);
+//                    mContext.startActivity(intent);
+//                }
             }
         });
 
