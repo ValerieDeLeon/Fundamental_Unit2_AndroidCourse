@@ -42,16 +42,14 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
             @Override
             public void onClick(View v)
             {
-                Toast.makeText(mContext, "Clicked " + mRecipeNames.get(position), Toast.LENGTH_SHORT).show();
-
                 if (mRecipeNames.get(position).equals("Banana Bread")) {
                     Intent intent = new Intent(mContext, BananaActivity.class);
                     mContext.startActivity(intent);
                 }
-//                if (mRecipeNames.get(position).equals("Birthday Cake")) {
-//                    Intent intent = new Intent(mContext, BirthdayActivity.class);
-//                    mContext.startActivity(intent);
-//                }
+//              if (mRecipeNames.get(position).equals("Birthday Cake")) {
+//                  Intent intent = new Intent(mContext, BirthdayActivity.class);
+//                  mContext.startActivity(intent);
+//              }
             }
         });
 
