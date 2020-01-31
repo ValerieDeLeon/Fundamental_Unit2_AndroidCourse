@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NeapolitanActivity">
+    tools:context=".BrownieActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
                 android:layout_height="350sp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                app:srcCompat="@drawable/neapolitancake" />
+                app:srcCompat="@drawable/brownielasagna" />
 
             <Space
                 android:layout_width="match_parent"
@@ -32,7 +32,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Yield: 12 servings | Prep Time: 15 minutes | Cook: 2 hours" />
+                android:textAlignment="center"
+                android:text="Yield: 12 servings | Prep Time: 35 minutes | Cook: 2 hours 35 minutes" />
 
             <Space
                 android:layout_width="match_parent"
@@ -116,46 +117,19 @@
                 android:text="For The Ganache:" />
 
             <TextView
-                android:id="@+id/ingredients_1_butter"
+                android:id="@+id/ingredients_1_ganache"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20sp"
-                android:text="1 1/2 c. butter, softened" />
+                android:text="3/4 c. heavy cream" />
 
             <TextView
-                android:id="@+id/ingredients_2_butter"
+                android:id="@+id/ingredients_2_ganach"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20sp"
-                android:text="6 c. powdered sugar" />
+                android:text="1 1/2 c. chocolate chips" />
 
-            <TextView
-                android:id="@+id/ingredients_3_butter"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="20sp"
-                android:text="1/4 c. sour cream" />
-
-            <TextView
-                android:id="@+id/ingredients_4_butter"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="20sp"
-                android:text="1 tsp. pure vanilla extract" />
-
-            <TextView
-                android:id="@+id/ingredients_5_butter"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="20sp"
-                android:text="1/4 c. heavy cream" />
-
-            <TextView
-                android:id="@+id/ingredients_6_butter"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="20sp"
-                android:text="Pinch of kosher salt" />
 
             <Space
                 android:layout_width="match_parent"
@@ -177,7 +151,7 @@
                 android:paddingStart="20dp"
                 android:paddingBottom="5dp"
                 android:paddingLeft="20dp"
-                android:text="@string/directions_1_birthday" />
+                android:text="@string/directions_1_nea" />
 
             <TextView
                 android:id="@+id/directions_2"
@@ -186,7 +160,7 @@
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
                 android:paddingBottom="5dp"
-                android:text="@string/directions_2_birthday" />
+                android:text="@string/directions_2_nea" />
 
             <TextView
                 android:id="@+id/directions_3"
@@ -195,7 +169,7 @@
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
                 android:paddingBottom="5dp"
-                android:text="@string/directions_3_birthday" />
+                android:text="@string/directions_3_nea" />
 
             <TextView
                 android:id="@+id/directions_4"
@@ -203,7 +177,7 @@
                 android:paddingLeft="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/directions_4_birthday" />
+                android:text="@string/directions_4_nea" />
 
             <TextView
                 android:id="@+id/directions_5"
@@ -211,7 +185,7 @@
                 android:paddingStart="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/directions_5_birthday" />
+                android:text="@string/directions_5_nea" />
 
             <TextView
                 android:id="@+id/directions_6"
@@ -219,7 +193,7 @@
                 android:paddingStart="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/directions_6_birthday" />
+                android:text="@string/directions_6_nea" />
 
             <Space
                 android:layout_width="match_parent"
