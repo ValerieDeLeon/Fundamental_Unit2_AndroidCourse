@@ -150,7 +150,7 @@
                 android:paddingStart="20dp"
                 android:paddingBottom="5dp"
                 android:paddingLeft="20dp"
-                android:text="@string/directions_1_nea" />
+                android:text="Preheat oven to 350° and grease a bundt pan with cooking spray. In a large bowl using a hand mixer, beat cake mix, water, butter, and eggs. Pour ⅓ mixture batter into prepared bundt pan. " />
 
             <TextView
                 android:id="@+id/directions_2"
@@ -159,7 +159,7 @@
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
                 android:paddingBottom="5dp"
-                android:text="@string/directions_2_nea" />
+                android:text="Divide remaining mixture in half. Stir food coloring and strawberry extract into one half and pour over white batter in pan. " />
 
             <TextView
                 android:id="@+id/directions_3"
@@ -168,7 +168,7 @@
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
                 android:paddingBottom="5dp"
-                android:text="@string/directions_3_nea" />
+                android:text="Stir vanilla and chocolate sauce into remaining half and pour over strawberry batter. " />
 
             <TextView
                 android:id="@+id/directions_4"
@@ -176,7 +176,7 @@
                 android:paddingLeft="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/directions_4_nea" />
+                android:text="Bake until a toothpick inserted middle of cake comes out clean, about 40 minutes. Let cool in pan 15 minutes before inverting onto wire rack to cool completely." />
 
             <TextView
                 android:id="@+id/directions_5"
@@ -184,7 +184,7 @@
                 android:paddingStart="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/directions_5_nea" />
+                android:text="Meanwhile, make ganache: In a small saucepan over medium heat, bring cream to a simmer. Turn off heat, then pour over chocolate chips in a heatproof bowl. Let sit 2 minutes, then whisk until smooth. " />
 
             <TextView
                 android:id="@+id/directions_6"
@@ -192,7 +192,7 @@
                 android:paddingStart="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/directions_6_nea" />
+                android:text="Pour ganache over cooled cake before serving. " />
 
             <Space
                 android:layout_width="match_parent"
