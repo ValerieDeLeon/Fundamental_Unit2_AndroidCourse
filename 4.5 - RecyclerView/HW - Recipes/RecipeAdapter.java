@@ -5,22 +5,23 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
 
-public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder>
+public class RecipeAdaptor extends RecyclerView.Adapter<RecipeAdaptor.ViewHolder>
 {
+
     private ArrayList<String> mRecipeNames;
     private ArrayList<String> mRecipeDescriptions;
     private Context mContext;
 
-    public RecipeAdapter(Context mContext, ArrayList<String> mRecipeNames, ArrayList<String> mRecipeDescriptions) {
+    public RecipeAdaptor(Context mContext, ArrayList<String> mRecipeNames, ArrayList<String> mRecipeDescriptions) {
         this.mRecipeNames = mRecipeNames;
         this.mRecipeDescriptions = mRecipeDescriptions;
         this.mContext = mContext;
@@ -32,7 +33,6 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
         ViewHolder holder = new ViewHolder(view);
         return holder;
     }
-
     public void onBindViewHolder(ViewHolder holder, final int position)
     {
         String mName = mRecipeNames.get(position);
@@ -42,14 +42,38 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
             @Override
             public void onClick(View v)
             {
-                if (mRecipeNames.get(position).equals("Banana Bread")) {
+                Toast.makeText(mContext, "Clicked " + mRecipeNames.get(position), Toast.LENGTH_SHORT).show();
+
+                if (mRecipeNames.get(position).equals("Banana Bread"))
+                {
                     Intent intent = new Intent(mContext, BananaActivity.class);
                     mContext.startActivity(intent);
                 }
-//              if (mRecipeNames.get(position).equals("Birthday Cake")) {
-//                  Intent intent = new Intent(mContext, BirthdayActivity.class);
-//                  mContext.startActivity(intent);
-//              }
+                if (mRecipeNames.get(position).equals("Birthday Cake"))
+                {
+                    Intent intent = new Intent(mContext, BirthdayActivity.class);
+                    mContext.startActivity(intent);
+                }
+                if (mRecipeNames.get(position).equals("Oreo Truffles"))
+                {
+                    Intent intent = new Intent(mContext, OreoActivity.class);
+                    mContext.startActivity(intent);
+                }
+                if (mRecipeNames.get(position).equals("Neapolitan Bundt Cake"))
+                {
+                    Intent intent = new Intent(mContext, NeapolitanActivity.class);
+                    mContext.startActivity(intent);
+                }
+                if (mRecipeNames.get(position).equals("Brownie Lasagna"))
+                {
+                    Intent intent = new Intent(mContext, BrownieActivity.class);
+                    mContext.startActivity(intent);
+                }
+                if (mRecipeNames.get(position).equals("Pumpkin Cheesecake Roll"))
+                {
+                    Intent intent = new Intent(mContext, PumpkinActivity.class);
+                    mContext.startActivity(intent);
+                }
             }
         });
 
@@ -65,7 +89,7 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
     {
         TextView recipeName;
         TextView recipeDescription;
-        ConstraintLayout parentLayout;
+        LinearLayout parentLayout;
 
         public ViewHolder(View itemView)
         {
