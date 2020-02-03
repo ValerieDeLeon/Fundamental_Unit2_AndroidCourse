@@ -155,7 +155,7 @@
                 android:paddingStart="20dp"
                 android:paddingBottom="5dp"
                 android:paddingLeft="20dp"
-                android:text="@string/directions_1" />
+                android:text="Preheat the oven to 350°F. Generously grease a 9 by 5-inch loaf pan." />
 
             <TextView
                 android:id="@+id/directions_2"
@@ -164,7 +164,7 @@
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
                 android:paddingBottom="5dp"
-                android:text="@string/directions_2" />
+                android:text="In a large bowl, whisk together the flour, sugars, baking soda, cinnamon, and salt." />
 
             <TextView
                 android:id="@+id/directions_3"
@@ -173,14 +173,14 @@
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
                 android:paddingBottom="5dp"
-                android:text="@string/directions_3" />
+                android:text="In a medium bowl stir together the bananas, yogurt, eggs, butter, oil, and vanilla. Gently fold the wet ingredients into the dry ingredients until just barely combined. Gently fold in the walnuts or chocolate chips if using, being very careful not to overmix. Spread batter into the prepared pan." />
 
             <TextView
                 android:id="@+id/directions_4"
                 android:paddingLeft="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/directions_4" />
+                android:text="Bake until golden brown and a toothpick inserted into the center comes out clean, about 55 minutes. Cool in the pan on\na cooling rack for 15 minutes before removing the loaf from the pan to finish cooling completely." />
 
             <Space
                 android:layout_width="match_parent"
