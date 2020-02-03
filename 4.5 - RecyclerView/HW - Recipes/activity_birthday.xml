@@ -199,7 +199,7 @@
                 android:paddingStart="20dp"
                 android:paddingBottom="5dp"
                 android:paddingLeft="20dp"
-                android:text="@string/directions_1_birthday" />
+                android:text="Make cake: Preheat oven to 350° and line three 8 cake pans with parchment paper." />
 
             <TextView
                 android:id="@+id/directions_2"
@@ -208,7 +208,7 @@
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
                 android:paddingBottom="5dp"
-                android:text="@string/directions_2_birthday" />
+                android:text="In a large bowl using hand mixer (or in the bowl of a stand mixer), beat together butter and sugar until light and fluffy. Add eggs one at a time, beating well after each addition. Add vanilla and mix until combined." />
 
             <TextView
                 android:id="@+id/directions_3"
@@ -217,7 +217,7 @@
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
                 android:paddingBottom="5dp"
-                android:text="@string/directions_3_birthday" />
+                android:text="In another large bowl, whisk together flour, cornstarch, baking powder, and salt. Add half of the dry ingredients to the wet ingredients, beating until just combined. Pour in the milk and mix until fully incorporated. Add remaining dry ingredients and stir until just combined. Fold in sprinkles." />
 
             <TextView
                 android:id="@+id/directions_4"
@@ -225,7 +225,7 @@
                 android:paddingLeft="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/directions_4_birthday" />
+                android:text="Divide batter evenly between prepared cake pans. Bake until slightly golden on top and a toothpick inserted into the middle comes out clean, about 30 to 35 minutes. Let cool completely." />
 
             <TextView
                 android:id="@+id/directions_5"
@@ -233,7 +233,7 @@
                 android:paddingStart="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/directions_5_birthday" />
+                android:text="Meanwhile, make buttercream: in a large bowl using a hand mixer, beat butter until light and fluffy, 2 to 3 minutes. Add powdered sugar, sour cream, vanilla, heavy cream, and salt and beat until smooth." />
 
             <TextView
                 android:id="@+id/directions_6"
@@ -241,7 +241,7 @@
                 android:paddingStart="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/directions_6_birthday" />
+                android:text="Assemble cake: Place the bottom layer of the cake on your serving platter and spread with buttercream; repeat with the second layer of cake. Place the last layer of cake on top, then frost the entire cake with buttercream. Garnish with more sprinkles, if desired." />
 
             <Space
                 android:layout_width="match_parent"
