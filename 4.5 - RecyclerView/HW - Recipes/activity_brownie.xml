@@ -60,49 +60,49 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20sp"
-                android:text="1 box white cake mix" />
+                android:text="2 boxes brownie mix, plus ingredients called for on box" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
 
             <TextView
-                android:id="@+id/ingredients_3_cake"
+                android:id="@+id/ingredients_subtitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20sp"
-                android:text="1 c. water" />
+                android:textStyle="italic"
+                android:text="For the Cream Cheese layer:" />
+
 
             <TextView
                 android:id="@+id/ingredients_4_cake"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20sp"
-                android:text="1/3 c. (5 tbsp.) melted butter" />
+                android:text="2 (8-oz.) blocks cream cheese, softened" />
 
             <TextView
                 android:id="@+id/ingredients_5_cake"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20sp"
-                android:text="3 egg whites" />
+                android:text="4 c. powdered sugar" />
 
             <TextView
                 android:id="@+id/ingredients_6_cake"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20sp"
-                android:text="2 tbsp. strawberry syrup" />
+                android:text="2 tsp. pure vanilla extract" />
 
             <TextView
                 android:id="@+id/ingredients_7_cake"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20sp"
-                android:text="1 tsp. pure vanilla extract" />
+                android:text="1/4 tsp. kosher salt" />
 
-            <TextView
-                android:id="@+id/ingredients_8_cake"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="20sp"
-                android:text="1/4 c. chocolate syrup" />
 
             <Space
                 android:layout_width="match_parent"
@@ -114,21 +114,28 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="20sp"
                 android:textStyle="italic"
-                android:text="For The Ganache:" />
+                android:text="For The Ganache and Toppings:" />
 
             <TextView
                 android:id="@+id/ingredients_1_ganache"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20sp"
-                android:text="3/4 c. heavy cream" />
+                android:text="2 c. chocolate chips" />
 
             <TextView
                 android:id="@+id/ingredients_2_ganach"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20sp"
-                android:text="1 1/2 c. chocolate chips" />
+                android:text="1 c. heavy cream" />
+
+            <TextView
+                android:id="@+id/ingredients_3_ganach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1/4 c. chocolate shavings" />
 
 
             <Space
@@ -151,7 +158,7 @@
                 android:paddingStart="20dp"
                 android:paddingBottom="5dp"
                 android:paddingLeft="20dp"
-                android:text="@string/directions_1_nea" />
+                android:text="Preheat oven to 350° and line a 9”-x-13” baking pan with parchment paper and grease with cooking spray. Prepare brownie mixes according to package directions and pour both batters into prepared pan. Bake until a toothpick inserted into the middle comes out clean, 40 minutes. Let cool completely. " />
 
             <TextView
                 android:id="@+id/directions_2"
@@ -160,7 +167,7 @@
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
                 android:paddingBottom="5dp"
-                android:text="@string/directions_2_nea" />
+                android:text="Make cream cheese layer: In a large bowl, using a hand mixer, beat cream cheese until smooth. Add powdered sugar and beat until no lumps remain, then add vanilla and salt and beat until combined. " />
 
             <TextView
                 android:id="@+id/directions_3"
@@ -169,7 +176,7 @@
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
                 android:paddingBottom="5dp"
-                android:text="@string/directions_3_nea" />
+                android:text="Make ganache: Place chocolate chips in a medium, heatproof bowl. In a small saucepan over medium heat, heat heavy cream and bring to a boil. Pour cream over chocolate chips and let sit 5 minutes then whisk until smooth. Let cool slightly. " />
 
             <TextView
                 android:id="@+id/directions_4"
@@ -177,7 +184,7 @@
                 android:paddingLeft="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/directions_4_nea" />
+                android:text="Remove brownie from pan and cut in half widthwise then cut each piece in half horizontally, to make a total of 4 thin layers. Place one piece of brownie on a platter then spread a thin layer of ganache on top. Add about ⅓ of cream cheese filling then top with another layer of brownie. Repeat layers, topping the final layer of brownie with ganache, reserving some for serving. Refrigerate for 1 hour or until well chilled. " />
 
             <TextView
                 android:id="@+id/directions_5"
@@ -185,15 +192,7 @@
                 android:paddingStart="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/directions_5_nea" />
-
-            <TextView
-                android:id="@+id/directions_6"
-                android:paddingLeft="20dp"
-                android:paddingStart="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/directions_6_nea" />
+                android:text="Top with chocolate shavings and drizzle with additional ganache before serving." />
 
             <Space
                 android:layout_width="match_parent"
