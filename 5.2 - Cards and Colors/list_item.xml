@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   Copyright 2016 Google Inc.
 
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,17 +15,26 @@
   -->
 
 
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:id="@+id/sportsImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true">
+        </ImageView>
 
         <TextView
             android:id="@+id/subTitle"
+            android:layout_below="@id/newsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
@@ -34,6 +42,8 @@
 
         <TextView
             android:id="@+id/newsTitle"
+            android:layout_below="@id/sportsImage"
+            android:textColor="?android:textColorSecondary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
@@ -41,11 +51,13 @@
 
         <TextView
             android:id="@+id/title"
+            android:layout_alignBottom="@+id/sportsImage"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="@string/title_placeholder" />
-    </LinearLayout>
+    </RelativeLayout>
 
 </android.support.v7.widget.CardView>
 
