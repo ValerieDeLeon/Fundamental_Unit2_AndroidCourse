@@ -101,8 +101,8 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
             super(itemView);
 
             //Initialize the views
-            mTitleText = (TextView)itemView.findViewById(R.id.title);
-            mInfoText = (TextView)itemView.findViewById(R.id.subTitle);
+            mTitleText = itemView.findViewById(R.id.title);
+            mInfoText = itemView.findViewById(R.id.subTitle);
             mSportsImage = itemView.findViewById(R.id.sportsImage);
         }
 
@@ -111,7 +111,6 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
             Glide.with(mContext).load(currentSport.getImageResource()).into(mSportsImage);
             mTitleText.setText(currentSport.getTitle());
             mInfoText.setText(currentSport.getInfo());
-
         }
     }
 }
